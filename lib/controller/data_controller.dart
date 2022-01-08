@@ -12,7 +12,7 @@ import 'package:get/get.dart';
 class DataController extends GetxController {
 
 
-    final firebaseInstance = FirebaseFirestore.instance;
+  final firebaseInstance = FirebaseFirestore.instance;
 
   
 
@@ -45,6 +45,10 @@ class DataController extends GetxController {
       print("Error Saving Data at firestore $exception");
     }
   }
+
+  
+
+
 
 
 
